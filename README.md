@@ -35,6 +35,14 @@
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 
+### iOS
+| | [FoXray](https://apps.apple.com/app/foxray/id6448898396) | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) |
+| :--- | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+
 ### OpenWrt
 | | [PassWall](https://github.com/xiaorouji/openwrt-passwall) | [PassWall 2](https://github.com/xiaorouji/openwrt-passwall2) | [ShadowSocksR Plus+](https://github.com/fw876/helloworld) | [luci-app-xray](https://github.com/yichya/luci-app-xray) |
 | :--- | :---: | :---: | :---: | :---: |
