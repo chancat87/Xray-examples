@@ -63,7 +63,7 @@
 
 </details>
 
-### PassWall 配置示例
+### PassWall - V4.61及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
