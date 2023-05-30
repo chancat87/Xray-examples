@@ -1,4 +1,4 @@
-### v2rayN - V6.19及以上版本 配置示例
+### v2rayN - V6.19 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -15,7 +15,7 @@
 
 </details>
 
-### v2rayNG - V1.8.1及以上版本 配置示例
+### v2rayNG - V1.8.1 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -38,7 +38,7 @@
 
 </details>
 
-### Shadowrocket - V2.2.30及以上版本 配置示例
+### Shadowrocket - V2.2.30 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -63,7 +63,7 @@
 
 </details>
 
-### PassWall - V4.61及以上版本 配置示例
+### PassWall - V4.61 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
