@@ -74,6 +74,32 @@ sysctl -p
 
 </details>
 
+### Shadowrocket 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 类型 | VLESS |
+| 地址 | 服务端的 IP |
+| 端口 | 443 |
+| UUID | chika |
+| TLS | 选上 |
+| XTLS | none |
+| 允许不安全 | 不选 |
+| SNI | `www.lovelive-anime.jp` |
+| ALPN | 留空 |
+| 公钥 | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
+| 短 ID | 6ba85179e30d4fc2 |
+| 传输方式 | grpc |
+| 服务名称 | lovelive |
+| 多路复用 | 不选 |
+| TCP 快速打开 | 不选 |
+| UDP 转发 | 选上 |
+| 代理通过 | 留空 |
+
+</details>
+
 ### PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
