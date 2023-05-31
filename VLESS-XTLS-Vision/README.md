@@ -38,7 +38,7 @@
 
 </details>
 
-### Shadowrocket - V2.2.30 及以上版本 配置示例
+### Shadowrocket - V2.2.31 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
