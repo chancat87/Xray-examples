@@ -25,7 +25,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
                             "0.0.0.0/0",
                             "::/0"
                         ],
-                        "endpoint": "162.159.192.1:2408"
+                        "endpoint": "162.159.192.1:2408" // 或填写 engage.cloudflareclient.com:2408
                     }
                 ],
                 "reserved":[0, 0, 0], // 粘贴你的 "reserved" 值
