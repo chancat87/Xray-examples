@@ -3,7 +3,7 @@
         "loglevel": "warning"
     },
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
+        "domainStrategy": "AsIs",
         "rules": [
             {
                 "type": "field",
@@ -16,7 +16,6 @@
             {
                 "type": "field",
                 "ip": [
-                    "geoip:cn",
                     "geoip:private"
                 ],
                 "outboundTag": "direct"
