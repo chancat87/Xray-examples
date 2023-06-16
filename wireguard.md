@@ -60,7 +60,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
             }
 ```
 
-**配置示例**
+**服务端配置示例**
 
 ```jsonc
 {
