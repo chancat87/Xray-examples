@@ -3,12 +3,11 @@
         "loglevel": "warning"
     },
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
+        "domainStrategy": "AsIs",
         "rules": [
             {
                 "type": "field",
                 "ip": [
-                    "geoip:cn",
                     "geoip:private"
                 ],
                 "outboundTag": "block"
@@ -101,13 +100,5 @@
             "protocol": "blackhole",
             "tag": "block"
         }
-    ],
-    "policy": {
-        "levels": {
-            "0": {
-                "handshake": 2,
-                "connIdle": 120
-            }
-        }
-    }
+    ]
 }
