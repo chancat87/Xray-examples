@@ -95,7 +95,8 @@
                     "http",
                     "tls",
                     "quic"
-                ]
+                ],
+                "routeOnly": true
             }
         },
         {
@@ -108,7 +109,8 @@
                     "http",
                     "tls",
                     "quic"
-                ]
+                ],
+                "routeOnly": true
             }
         },
         {
