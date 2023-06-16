@@ -39,36 +39,13 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
 
 **"routing"**
 ```
-        "domainStrategy": "IPIfNonMatch",
-        "rules": [
-            {
-                "type": "field",
-                "port": "443",
-                "network": "udp",
-                "outboundTag": "block"
-            },
             {
                 "type": "field",
                 "domain": [
                     "geosite:openai
                 ],
                 "outboundTag": "wireguard"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "geoip:cn"
-                ],
-                "outboundTag": "wireguard"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "geoip:private"
-                ],
-                "outboundTag": "block"
             }
-        ]
 ```
 
 **"inbounds"**
@@ -91,34 +68,14 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
         "loglevel": "warning"
     },
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
+        "domainStrategy": "AsIs",
         "rules": [
-            {
-                "type": "field",
-                "port": "443",
-                "network": "udp",
-                "outboundTag": "block"
-            },
             {
                 "type": "field",
                 "domain": [
                     "geosite:openai"
                 ],
                 "outboundTag": "wireguard"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "geoip:cn"
-                ],
-                "outboundTag": "wireguard"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "geoip:private"
-                ],
-                "outboundTag": "block"
             }
         ]
     },
