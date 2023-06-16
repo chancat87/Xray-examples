@@ -1,3 +1,4 @@
+// 需启用 设置 —— 启用本地DNS
 {
     "log": {
         "loglevel": "warning"
