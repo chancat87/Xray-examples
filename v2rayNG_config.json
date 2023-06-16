@@ -1,4 +1,4 @@
-// 需启用 设置 —— 启用本地DNS
+// 需启用 设置 —— 启用本地DNS，本地DNS端口 10853
 {
     "log": {
         "loglevel": "warning"
