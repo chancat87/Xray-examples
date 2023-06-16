@@ -98,10 +98,6 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
             "tag": "direct"
         },
         {
-            "protocol": "blackhole",
-            "tag": "block"
-        },
-        {
             "protocol": "wireguard",
             "settings": {
                 "secretKey": "", // 粘贴你的 "private_key" 值
