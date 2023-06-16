@@ -59,9 +59,6 @@
             "sniffing": {
                 "enabled": true,
                 "destOverride": [
-                    "http",
-                    "tls",
-                    "quic",
                     "fakedns"
                 ]
             }
@@ -73,9 +70,6 @@
             "sniffing": {
                 "enabled": true,
                 "destOverride": [
-                    "http",
-                    "tls",
-                    "quic",
                     "fakedns"
                 ]
             }
