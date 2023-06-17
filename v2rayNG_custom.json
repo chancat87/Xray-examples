@@ -101,20 +101,6 @@
         },
         {
             "listen": "127.0.0.1",
-            "port": 10809,
-            "protocol": "http",
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "routeOnly": true
-            }
-        },
-        {
-            "listen": "127.0.0.1",
             "port": 10853,
             "protocol": "dokodemo-door",
             "settings": {
