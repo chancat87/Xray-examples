@@ -70,7 +70,8 @@
             "settings": {
                 "address": "1.1.1.1",
                 "port": 53,
-                "network": "udp"
+                "network": "udp",
+                "nonIPQuery": "skip"
             },
             "tag": "dns-in"
         }
