@@ -10,6 +10,20 @@
             {
                 "type": "field",
                 "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:geolocation-!cn"
+                ],
+                "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+                "domain": [
                     "geosite:cn",
                     "geosite:private"
                 ],
