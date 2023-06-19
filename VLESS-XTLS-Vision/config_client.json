@@ -28,12 +28,12 @@
     "inbounds": [
         {
             "listen": "127.0.0.1", // 填 0.0.0.0 表示允许来自局域网的连接
-            "port": 10808, // v2rayN 本地socks监听端口
+            "port": 10808,
             "protocol": "socks"
         },
         {
             "listen": "127.0.0.1", // 填 "0.0.0.0" 表示允许来自局域网的连接
-            "port": 10809, // v2rayN 本地http监听端口
+            "port": 10809,
             "protocol": "http"
         }
     ],
