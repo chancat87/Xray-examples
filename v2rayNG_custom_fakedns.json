@@ -70,8 +70,7 @@
             "settings": {
                 "address": "1.1.1.1",
                 "port": 53,
-                "network": "udp",
-                "nonIPQuery": "skip"
+                "network": "udp"
             },
             "tag": "dns-in"
         }
@@ -91,6 +90,9 @@
         },
         {
             "protocol": "dns",
+            "settings": {
+                "nonIPQuery": "skip"
+            },
             "proxySettings": { 
                 "tag": "proxy"
             },
