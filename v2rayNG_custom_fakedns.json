@@ -90,9 +90,6 @@
         },
         {
             "protocol": "dns",
-            "settings": {
-                "nonIPQuery": "skip"
-            },
             "proxySettings": { 
                 "tag": "proxy"
             },
