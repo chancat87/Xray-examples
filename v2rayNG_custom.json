@@ -23,10 +23,10 @@
                 "domains": [
                     "geosite:cn",
                     "geosite:private"
-                ]
+                ],
+                "skipFallback": true
             }
-        ],
-        "nonIPQuery": "skip"
+        ]
     },
     "routing": {
         "rules": [
@@ -106,7 +106,7 @@
                 "address": "1.1.1.1",
                 "port": 53,
                 "network": "udp",
-                "skipFallback": true
+                "nonIPQuery": "skip"
             },
             "tag": "dns-in"
         }
