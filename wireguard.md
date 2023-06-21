@@ -55,7 +55,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
         }
 ```
 
-编辑 **/usr/local/etc/xray/config.json**，按需增加 **"routing"**，**"inbounds"**，**"outbounds"** 的内容（注意检查json格式），输入 `systemctl restart xray` 重启Xray，访问[chat.openai.com/cdn-cgi/trace](https://chat.openai.com/cdn-cgi/trace)查看是否为Cloudflare的IPv4。
+编辑 **/usr/local/etc/xray/config.json**，按需增加 **"routing"**，**"inbounds"**，**"outbounds"** 的内容（注意检查json格式），输入 `systemctl restart xray` 重启Xray，访问[chat.openai.com/cdn-cgi/trace](https://chat.openai.com/cdn-cgi/trace)查看是否为Cloudflare的IPv6。
 
 **"routing"**
 ```jsonc
@@ -93,9 +93,9 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
             {
                 "type": "field",
                 "domain": [
-                    "geosite:openai"
+                    "geosite:openai
                 ],
-                "outboundTag": "wireguard"
+                "outboundTag": "warp-IPv6" // 若需使用Cloudflare的IPv4，改为 "warp-IPv4"
             }
         ]
     },
@@ -116,6 +116,26 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
         {
             "protocol": "freedom",
             "tag": "direct"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "proxySettings": {
+                "tag": "wireguard"
+            },
+            "tag": "warp-IPv4"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv6"
+            },
+            "proxySettings": {
+                "tag": "wireguard"
+            },
+            "tag": "warp-IPv6"
         },
         {
             "protocol": "wireguard",
