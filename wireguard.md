@@ -11,6 +11,26 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
 **"outbounds"**
 ```jsonc
         {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "proxySettings": {
+                "tag": "wireguard"
+            },
+            "tag": "warp-IPv4"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv6"
+            },
+            "proxySettings": {
+                "tag": "wireguard"
+            },
+            "tag": "warp-IPv6"
+        },
+        {
             "protocol": "wireguard",
             "settings": {
                 "secretKey": "", // 粘贴你的 "private_key" 值
@@ -44,7 +64,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
                 "domain": [
                     "geosite:openai
                 ],
-                "outboundTag": "wireguard"
+                "outboundTag": "warp-IPv6" // 若需使用Cloudflare的IPv4，改为 "warp-IPv4"
             }
 ```
 
