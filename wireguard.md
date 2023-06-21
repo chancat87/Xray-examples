@@ -62,7 +62,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
             {
                 "type": "field",
                 "domain": [
-                    "geosite:openai
+                    "geosite:openai"
                 ],
                 "outboundTag": "warp-IPv6" // 若需使用Cloudflare的IPv4，改为 "warp-IPv4"
             }
@@ -93,7 +93,7 @@ curl -sLo warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/m
             {
                 "type": "field",
                 "domain": [
-                    "geosite:openai
+                    "geosite:openai"
                 ],
                 "outboundTag": "warp-IPv6" // 若需使用Cloudflare的IPv4，改为 "warp-IPv4"
             }
