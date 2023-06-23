@@ -11,7 +11,7 @@ curl -Lo /root/warp "https://api.zeroteam.top/warp?format=xray" > /dev/null && g
 ```
 
 - 复制输出的 IPv6 地址，替换下面配置中的 `2606:4700::`
-- 复制输出的 `private_key` 值，粘贴到下面配置中 `secretKey` 后的 `""` 中
+- 复制输出的 `private_key/secretKey` 值，粘贴到下面配置中 `secretKey` 后的 `""` 中
 - 复制输出的 `reserved` 值，粘贴到下面配置中 `reserved` 后的 `[]` 中
 
 **"outbounds"**
