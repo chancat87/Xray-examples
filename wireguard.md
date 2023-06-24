@@ -94,7 +94,7 @@ curl -sLo /root/warp "https://api.zeroteam.top/warp?format=xray" > /dev/null && 
         "loglevel": "warning"
     },
     "routing": {
-        "domainStrategy": "AsIs",
+        "domainStrategy": "IPIfNonMatch",
         "rules": [
             {
                 "type": "field",
@@ -102,6 +102,13 @@ curl -sLo /root/warp "https://api.zeroteam.top/warp?format=xray" > /dev/null && 
                     "geosite:openai"
                 ],
                 "outboundTag": "warp-IPv4" // 若需使用Cloudflare的IPv6，改为 "warp-IPv6"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn"
+                ],
+                "outboundTag": "wireguard"
             }
         ]
     },
