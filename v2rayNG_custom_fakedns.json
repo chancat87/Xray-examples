@@ -42,6 +42,7 @@
             {
                 "type": "field",
                 "ip": [
+                    "geoip:cn",
                     "geoip:private"
                 ],
                 "outboundTag": "direct"
