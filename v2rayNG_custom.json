@@ -29,7 +29,6 @@
         ]
     },
     "routing": {
-        "domainStrategy": "IPOnDemand",
         "rules": [
             {
                 "type": "field",
@@ -50,27 +49,15 @@
                 "domain": [
                     "geosite:geolocation-!cn"
                 ],
-                "ip": [
-                    "geoip:!cn"
-                ],
                 "outboundTag": "proxy"
             },
             {
                 "type": "field",
                 "domain": [
-                    "geosite:cn"
-                ],
-                "ip": [
-                    "geoip:cn"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
-                "domain": [
+                    "geosite:cn",
                     "geosite:private"
                 ],
-                "outboundTag": "direct"
+                "outboundTag": "proxy"
             },
             {
                 "type": "field",
@@ -96,8 +83,7 @@
                     "http",
                     "tls",
                     "quic"
-                ],
-                "routeOnly": true
+                ]
             }
         },
         {
