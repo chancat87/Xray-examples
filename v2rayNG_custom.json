@@ -57,7 +57,7 @@
                     "geosite:cn",
                     "geosite:private"
                 ],
-                "outboundTag": "proxy"
+                "outboundTag": "direct"
             },
             {
                 "type": "field",
