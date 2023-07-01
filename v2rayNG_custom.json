@@ -97,8 +97,8 @@
                     "tls",
                     "quic"
                 ]
+                "routeOnly": true
             },
-            "routeOnly": true
         },
         {
             "listen": "127.0.0.1",
