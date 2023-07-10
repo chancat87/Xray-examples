@@ -114,8 +114,8 @@
         },
         {
             "protocol": "dns",
-            "proxySettings": { 
-                "tag": "proxy"
+            "settings": {
+                "nonIPQuery": "drop"
             },
             "tag": "dns-out"
         }
