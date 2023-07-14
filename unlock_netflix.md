@@ -74,8 +74,12 @@ VPS B
     ],
     "outbounds": [
         {
-            "protocol": "freedom"
-        }
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4" // 若需使用IPv6，改为 "UseIPv6"
+            },
+            "tag": "direct"
+        },
     ]
 }
 ```
