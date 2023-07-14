@@ -52,3 +52,30 @@ VPS A
     ]
 }
 ```
+
+VPS B
+
+```jsonc
+{
+    "log": {
+        "loglevel": "warning"
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 80,
+            "protocol": "shadowsocks",
+            "settings": {
+                "method": "2022-blake3-aes-128-gcm",
+                "password": "", // 与 VPS A 中的一致
+                "network": "tcp,udp"
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
+```
