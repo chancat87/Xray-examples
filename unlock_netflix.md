@@ -67,7 +67,7 @@ VPS B
             "protocol": "shadowsocks",
             "settings": {
                 "method": "2022-blake3-aes-128-gcm",
-                "password": "", // 与 VPS A 中的 "password" 一致
+                "password": "", // 与 VPS A 中的一致
                 "network": "tcp,udp"
             }
         }
