@@ -2,28 +2,9 @@
     "log": {
         "loglevel": "warning"
     },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ]
-    },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:geolocation-!cn"
-                ],
-                "outboundTag": "proxy"
-            },
             {
                 "type": "field",
                 "domain": [
