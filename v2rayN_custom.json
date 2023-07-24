@@ -1,3 +1,4 @@
+// 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 Xray ——> Socks端口 0。
 {
     "log": {
         "loglevel": "warning"
