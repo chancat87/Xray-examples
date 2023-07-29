@@ -36,7 +36,7 @@
                     "dest": "8005",
                     "xver": 1, // 发送 PROXY protocol
                     "serverNames": [ // 客户端可用的 serverName 列表，暂不支持 * 通配符，建议填由 Nginx 加载的 SSL 证书中包含的域名，建议将此域名指向服务端的 IP
-                        "www.example.com" // 也可填任意网址，建议是国外网站，需与 Nginx 中的 serverName 列表一致
+                        "www.example.com" // 也可填任意网址，建议是国外网站
                     ],
                     "privateKey": "2KZ4uouMKgI8nR-LDJNP1_MHisCJOmKGj9jUjZLncVU", // 执行 xray x25519 生成，填 "Private key" 的值
                     "shortIds": [ // 客户端可用的 shortId 列表，可用于区分不同的客户端
