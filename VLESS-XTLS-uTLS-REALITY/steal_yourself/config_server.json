@@ -33,7 +33,6 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false, // 若为 true，输出调试信息
                     "dest": "8003", // 即 "127.0.0.1:8003"
                     "xver": 1, // 发送 PROXY protocol
                     "serverNames": [ // 客户端可用的 serverName 列表，暂不支持 * 通配符，建议填由 Nginx 加载的 SSL 证书中包含的域名，建议将此域名指向服务端的 IP
