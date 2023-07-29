@@ -43,7 +43,7 @@
                     ]
                 },
                 "sockopt": {
-                    "acceptProxyProtocol": true // 接收 PROXY protocol
+                    "acceptProxyProtocol": true
                 }
             },
             "sniffing": {
