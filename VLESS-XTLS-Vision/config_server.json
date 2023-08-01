@@ -18,7 +18,7 @@
     "inbounds": [
         {
             "listen": "0.0.0.0", // "0.0.0.0" 表示同时监听IPv4和IPv6
-            "port": 443, // 服务端监听的端口
+            "port": 443, // 端口
             "protocol": "vless",
             "settings": {
                 "clients": [
