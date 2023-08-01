@@ -23,7 +23,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", // 执行 xray uuid 生成，或 1-30 字节的字符串
+                        "id": "chika", // 长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
                         "flow": "xtls-rprx-vision"
                     }
                 ],
