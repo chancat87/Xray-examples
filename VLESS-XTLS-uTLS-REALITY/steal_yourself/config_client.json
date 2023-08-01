@@ -41,7 +41,7 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "", // 服务端的 IP
+                        "address": "",
                         "port": 443,
                         "users": [
                             {
