@@ -52,3 +52,7 @@
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 **[其它支持](https://github.com/XTLS/Xray-core/blob/main/README.md)**
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/chika0801/Xray-examples.svg)](https://starchart.cc/chika0801/Xray-examples)
