@@ -1,4 +1,4 @@
-## :exclamation:提醒
+## :exclamation:Nginx SNI 分流
 
 **1. 对于非 REALITY 流量，全转发到 dest 才是正确的，SNI 分流的话能探测出来，有此需求请用 Nginx 等软件实现。** [#](https://github.com/XTLS/Xray-core/issues/2360#issuecomment-1646716162)
 
