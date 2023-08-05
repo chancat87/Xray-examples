@@ -56,7 +56,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "lovelive", // 与服务端一致
+                    "serviceName": "chika", // 与服务端一致
                     "multiMode": true,
                     "idle_timeout": 60,
                     "health_check_timeout": 20
