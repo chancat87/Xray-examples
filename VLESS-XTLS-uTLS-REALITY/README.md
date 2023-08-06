@@ -8,6 +8,11 @@
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | xtls-rprx-vision |
+| 加密方式 | none |
+| 传输协议 | tcp |
+| 伪装类型 | none |
+| 伪装域名 | 留空 |
+| 路径 | 留空 |
 | 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
