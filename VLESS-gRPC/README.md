@@ -63,3 +63,60 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 路过证书验证 | false |
 
 </details>
+
+### PassWall - V4.61 及以上版本 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 类型 | Xray |
+| 传输协议 | VLESS |
+| 地址（支持域名） | 服务端的 IP |
+| 端口 | 443 |
+| 加密方式 | none |
+| ID | chika |
+| TLS | 勾上 |
+| flow | 停用 |
+| REALITY | 不勾 |
+| alpn | 默认 |
+| 域名 | `chika.example.com` |
+| 允许不安全连接 | 不勾 |
+| 指纹伪造 | chrome |
+| 传输协议 | gRPC |
+| ServiceName | chika |
+| gRPC 传输模式 | multi |
+| 健康检查 | 不勾 |
+| 初始窗口大小 | 0 |
+| MUX | 不勾 |
+
+</details>
+
+### ShadowSocksR Plus+ 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 服务器节点类型 | V2Ray/Xray |
+| V2Ray/XRay 协议 | VLESS |
+| 服务器地址 | 服务端的 IP |
+| 端口 | 443 |
+| Vmess/VLESS ID (UUID) | chika |
+| VLESS 加密 | none |
+| 传输协议 | gRPC |
+| gRPC 服务名称 | chika |
+| gRPC 模式 | Multi |
+| 初始窗口大小 | 0 |
+| H2/gRPC 健康检查 | 不勾 |
+| TLS | 勾上 |
+| 指纹伪造 | chrome |
+| TLS 主机名 | `chika.example.com` |
+| TLS ALPN | 留空 |
+| 允许不安全连接 | 不勾 |
+| Mux | 不勾 |
+| 自签证书 | 不勾 |
+| 启用自动切换 | 不勾 |
+| 本地端口 | 1234 |
+
+</details>
