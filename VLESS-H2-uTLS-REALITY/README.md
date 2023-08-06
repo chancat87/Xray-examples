@@ -38,6 +38,9 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 流控 | 留空 |
 | 加密方式 | none |
 | 传输协议 | h2 |
+| 伪装类型 | none |
+| 伪装域名 | 留空 |
+| 路径 | 留空 |
 | 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
