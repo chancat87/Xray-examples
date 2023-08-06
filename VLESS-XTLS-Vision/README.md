@@ -21,20 +21,20 @@
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址(address) | chika.example.com |
-| 端口(prot) | 443 |
-| 用户ID(id) | chika |
-| 流控(flow) | xtls-rprx-vision |
-| 加密方式(encryption) | none |
-| 传输协议(network) | tcp |
-| 伪装类型(type) | none |
-| 伪装域名(host) | 留空 |
+| 地址 | chika.example.com |
+| 端口 | 443 |
+| 用户ID | chika |
+| 流控 | xtls-rprx-vision |
+| 加密方式 | none |
+| 传输协议 | tcp |
+| 伪装类型 | none |
+| 伪装域名 | 留空 |
 | path | 留空 |
-| 传输层安全(tls) | tls |
+| 传输层安全 | tls |
 | SNI | 留空 |
 | Fingerprint | chrome |
 | Alpn | 留空 |
-| 跳过证书验证(allowInsecure) | false |
+| 跳过证书验证 | false |
 
 </details>
 
