@@ -26,37 +26,4 @@
 
 **:star:Star [this project](https://github.com/XTLS/REALITY) to make the next future a REALITY.**
 
-## **GUI 客户端：** 
-
-<details><summary>点击查看</summary><br>
-
-### Windows / Android
-| | [v2rayN](https://github.com/2dust/v2rayN/releases) | [v2rayNG](https://github.com/2dust/v2rayNg/releases) |
-| :--- | :---: | :---: |
-| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC** | :heavy_check_mark: | :heavy_check_mark: |
-
-### iOS
-| | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | [FoXray](https://apps.apple.com/app/foxray/id6448898396) |
-| :--- | :---: | :---: |
-| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC** | :heavy_check_mark: | :heavy_check_mark: |
-
-### OpenWrt
-| | [luci-app-ssr-plus](https://github.com/fw876/helloworld) | [luci-app-passwall](https://github.com/xiaorouji/openwrt-passwall) | [luci-app-xray](https://github.com/yichya/luci-app-xray) |
-| :--- | :---: | :---: | :---: |
-| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-
-### [更多](https://github.com/XTLS/Xray-core/blob/main/README.md#gui-clients)
-
-</details>
+## **[GUI 客户端](https://github.com/XTLS/Xray-core/blob/main/README.md#gui-clients)** 
