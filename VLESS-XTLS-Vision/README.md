@@ -12,7 +12,7 @@
 | 传输协议 | tcp |
 | 伪装类型 | none |
 | 伪装域名 | 留空 |
-| path | 留空 |
+| 路径 | 留空 |
 | 传输层安全 | tls |
 | SNI | `留空` |
 | Fingerprint | chrome |
