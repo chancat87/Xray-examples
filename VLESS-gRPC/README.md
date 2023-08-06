@@ -70,7 +70,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | gRPC 传输模式 | multi |
 | 伪装域名 | 留空 |
 | path | chika |
-| 传输层安全) | tls |
+| 传输层安全 | tls |
 | SNI | `chika.example.com` |
 | Fingerprint | chrome |
 | Alpn | 留空 |
