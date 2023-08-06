@@ -68,13 +68,12 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 传输协议(network) | grpc |
 | gRPC 传输模式 (mode) | multi |
 | 伪装域名(host) | 留空 |
-| path | lovelive |
-| 传输层安全(tls) | reality |
+| path | chika |
+| 传输层安全(tls) | tls |
 | SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
-| PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
-| ShortID | 6ba85179e30d4fc2 |
-| SpiderX | 留空 |
+| Alpn | 留空 |
+| 路过证书验证(allowInsecure) | false |
 
 </details>
 
