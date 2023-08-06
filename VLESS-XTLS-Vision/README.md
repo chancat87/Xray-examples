@@ -14,7 +14,7 @@
 | 伪装域名 | 留空 |
 | 路径 | 留空 |
 | 传输层安全 | tls |
-| SNI | `留空` |
+| SNI | 留空 |
 | Fingerprint | chrome |
 | Alpn | 留空 |
 | 路过证书验证 | false |
