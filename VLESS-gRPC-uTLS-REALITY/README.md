@@ -36,6 +36,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | 留空 |
+| 加密方式 | none |
 | 传输协议 | grpc |
 |  | multi |
 | 路径 | lovelive |
