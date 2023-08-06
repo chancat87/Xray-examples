@@ -8,10 +8,16 @@
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | xtls-rprx-vision |
+| 加密方式 | none |
+| 传输协议 | tcp |
+| 伪装类型 | none |
+| 伪装域名 | 留空 |
+| path | 留空 |
 | 传输层安全 | tls |
+| SNI | `留空` |
 | Fingerprint | chrome |
-
-![1](https://user-images.githubusercontent.com/88967758/224359333-39fe1582-e98f-4f10-951e-3d54499bbe6d.png)
+| Alpn | 留空 |
+| 路过证书验证 | false |
 
 </details>
 
