@@ -90,7 +90,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 多路复用 | 不选 |
 | TCP 快速打开 | 不选 |
 | UDP 转发 | 选上 |
-| 代理通过 | 留空 |
+| 代理通过 | 不选 |
 
 </details>
 
