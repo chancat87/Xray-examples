@@ -39,6 +39,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 加密方式 | none |
 | 传输协议 | grpc |
 |  | multi |
+| 伪装域名 | 留空 |
 | 路径 | lovelive |
 | 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
