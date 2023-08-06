@@ -64,6 +64,34 @@ sysctl -p /etc/sysctl.d/http2.conf
 
 </details>
 
+### Shadowrocket - V2.2.31 及以上版本 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 类型 | VLESS |
+| 地址 | 服务端的 IP |
+| 端口 | 443 |
+| UUID | chika |
+| TLS | 选上 |
+| XTLS | none |
+| 允许不安全 | 不选 |
+| SNI | `chika.example.com` |
+| ALPN | 留空 |
+| 公钥 | 留空 |
+| 短 ID | 留空 |
+| 传输方式 |  |
+| 名称 | grpc |
+| Host | 留空 |
+| 服务名称 | chika |
+| 多路复用 | 不选 |
+| TCP 快速打开 | 不选 |
+| UDP 转发 | 选上 |
+| 代理通过 | 不选 |
+
+</details>
+
 ### PassWall - V4.61 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
