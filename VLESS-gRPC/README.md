@@ -1,9 +1,3 @@
-### **配置介绍：** 
-
-| | 无需注册域名 | 解决 TLS in TLS | 自带多路复用 | 通过 CDN 访问 |
-| :--- | :---: | :---: | :---: | :---: |
-| **VLESS-gRPC** | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-
 ### 注意：
 
 :exclamation:gRPC/H2 建议在有优化回程路由（如 CN2-GIA、AS9929/AS10099、CMI/CMIN2、AS4837 等）的VPS上使用。并且VPS所在的地区距离你的位置越近越好。即使你的VPS满足以上条件，仍然不能避免断流现象。建议参考 [NaïveProxy](https://github.com/klzgrad/naiveproxy) 的 [Performance Tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning) 进行优化。除此以外，你可以参考[文档](https://xtls.github.io/Xray-docs-next/config/transports/grpc.html#grpcobject)，使用[健康检查](https://github.com/chika0801/Xray-examples/blob/main/VLESS-gRPC/config_client.json#L62)参数。
