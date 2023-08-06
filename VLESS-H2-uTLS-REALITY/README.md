@@ -83,9 +83,10 @@ sysctl -p /etc/sysctl.d/http2.conf
 | ALPN | 留空 |
 | 公钥 | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | 短 ID | 6ba85179e30d4fc2 |
-| 传输方式 | h2 |
+| 传输方式 |  |
+| 名称 | h2 |
 | Host | `www.example.com` |
-| 路径 | 留空 |
+| 路径 | / |
 | 多路复用 | 不选 |
 | TCP 快速打开 | 不选 |
 | UDP 转发 | 选上 |
