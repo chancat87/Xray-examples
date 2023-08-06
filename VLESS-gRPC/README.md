@@ -6,23 +6,15 @@
 
 ### 注意：
 
-:exclamation:gRPC/H2 建议在有优化回程路由（如 CN2-GIA、AS9929/AS10099、CMI/CMIN2、AS4837 等）的VPS上使用。并且VPS所在的地区距离你的位置越近越好。即使你的VPS满足以上条件，仍然不能避免断流现象。建议参考 [NaïveProxy](https://github.com/klzgrad/naiveproxy) 的 [Performance Tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning) 优化系统内核参数。除此以外，你可以参考[文档](https://xtls.github.io/Xray-docs-next/config/transports/grpc.html#grpcobject)，使用[健康检查](https://github.com/chika0801/Xray-examples/blob/main/VLESS-gRPC/config_client.json#L62)参数。
+:exclamation:gRPC/H2 建议在有优化回程路由（如 CN2-GIA、AS9929/AS10099、CMI/CMIN2、AS4837 等）的VPS上使用。并且VPS所在的地区距离你的位置越近越好。即使你的VPS满足以上条件，仍然不能避免断流现象。建议参考 [NaïveProxy](https://github.com/klzgrad/naiveproxy) 的 [Performance Tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning) 进行优化。除此以外，你可以参考[文档](https://xtls.github.io/Xray-docs-next/config/transports/grpc.html#grpcobject)，使用[健康检查](https://github.com/chika0801/Xray-examples/blob/main/VLESS-gRPC/config_client.json#L62)参数。
 
 <details><summary>点击查看</summary><br>
 
 ```
 cat > /etc/sysctl.d/http2.conf << EOF
-net.core.somaxconn = 65535
-net.ipv4.tcp_max_syn_backlog = 65535
-net.ipv4.tcp_syncookies = 1
-net.ipv4.tcp_tw_reuse = 1
-net.ipv4.tcp_fin_timeout = 30
-net.ipv4.tcp_keepalive_time = 1200
-net.ipv4.tcp_keepalive_probes = 5
-net.ipv4.tcp_keepalive_intvl = 15
-net.ipv4.tcp_slow_start_after_idle = 0
-net.ipv4.tcp_mtu_probing = 1
-net.ipv4.tcp_max_tw_buckets = 50000
+net.ipv4.tcp_congestion_control=bbr
+net.ipv4.tcp_slow_start_after_idle=0
+net.ipv4.tcp_notsent_lowat=16384
 EOF
 ```
 
