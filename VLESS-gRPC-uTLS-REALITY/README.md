@@ -83,13 +83,14 @@ sysctl -p /etc/sysctl.d/http2.conf
 | ALPN | 留空 |
 | 公钥 | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | 短 ID | 6ba85179e30d4fc2 |
-| 传输方式 | grpc |
+| 传输方式 |  |
+| 名称 | grpc |
 | Host | 留空 |
 | 服务名称 | lovelive |
 | 多路复用 | 不选 |
 | TCP 快速打开 | 不选 |
 | UDP 转发 | 选上 |
-| 代理通过 | 留空 |
+| 代理通过 | 不选 |
 
 </details>
 
