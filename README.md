@@ -60,7 +60,3 @@
 ### [更多](https://github.com/XTLS/Xray-core/blob/main/README.md#gui-clients)
 
 </details>
-
-## :star: over :clock6:
-
-[![Stargazers over time](https://starchart.cc/chika0801/Xray-examples.svg)](https://starchart.cc/chika0801/Xray-examples)
