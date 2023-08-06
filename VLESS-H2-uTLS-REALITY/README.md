@@ -36,6 +36,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | 留空 |
+| 加密方式 | none |
 | 传输协议 | h2 |
 | 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
@@ -52,16 +53,16 @@ sysctl -p /etc/sysctl.d/http2.conf
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址(address) | 服务端的 IP |
-| 端口(prot) | 443 |
-| 用户ID(id) | chika |
-| 流控(flow) | 留空 |
-| 加密方式(encryption) | none |
-| 传输协议(network) | h2 |
+| 地址 | 服务端的 IP |
+| 端口 | 443 |
+| 用户ID | chika |
+| 流控 | 留空 |
+| 加密方式 | none |
+| 传输协议 | h2 |
 | 伪装类型 | --- |
-| 伪装域名(host) | 留空 |
+| 伪装域名 | 留空 |
 | path | 留空 |
-| 传输层安全(tls) | reality |
+| 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
 | PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
