@@ -44,6 +44,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 流控 | 留空 |
 | 传输协议 | grpc |
 |  | multi |
+| 伪装域名 | 留空 |
 | 路径 | chika |
 | 传输层安全 | tls |
 | SNI | `www.lovelive-anime.jp` |
