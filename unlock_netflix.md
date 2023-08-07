@@ -14,6 +14,13 @@ VPS A
                     "geosite:netflix"
                 ],
                 "outboundTag": "netflix"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn"
+                ],
+                "outboundTag": "netflix"
             }
         ]
     },
