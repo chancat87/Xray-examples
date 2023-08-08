@@ -8,8 +8,8 @@
 
 ## :exclamation:Nginx SNI routing
 
-**1. For non-REALITY traffic, it is correct to forward all traffic to dest, which can be detected by SNI shunting, so please use Nginx or other software to implement this.** [#](https://github.com/XTLS/Xray-core/issues/2360#issuecomment-1646716162)
+**1. For non-REALITY traffic, it is correct to forward all traffic to dest, which can be detected by SNI shunting, so please use Nginx or other software to implement this.**
 
-**2. Is it possible that REALITY doesn't have SNI shunting built in precisely because SNI shunting can be a problem? We do not recommend SNI shunting.** [#](https://github.com/XTLS/Xray-core/issues/2374#issuecomment-1653603429)
+**2. Is it possible that REALITY doesn't have SNI shunting built in precisely because SNI shunting can be a problem? We do not recommend SNI shunting.**
 
-**3. In short, REALITY's expected external performance is only port forwarding, and we don't know if GFW will block SNI diversion, so we recommend using Nginx and other software to borrow the features.** [#](https://github.com/XTLS/Xray-core/issues/2360#issuecomment-1646734306)
+**3. In short, REALITY's expected external performance is only port forwarding, and we don't know if GFW will block SNI diversion, so we recommend using Nginx and other software to borrow the features.**
