@@ -5,3 +5,11 @@
 **2. 不依赖 CA，更安全**
 
 **3. 客户端必须选 uTLS 指纹，防猪队友** [#](https://github.com/XTLS/Xray-core/issues/2164#issuecomment-1571510589)
+
+## :exclamation:Steal Oneself
+
+**1. Solve the server-side TLS fingerprinting problem**
+
+**2. Not rely on CA, more secure**
+
+**3. client must choose uTLS fingerprint to prevent piggybacking**
