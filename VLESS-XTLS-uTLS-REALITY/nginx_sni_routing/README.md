@@ -6,7 +6,7 @@
 
 **3. 总之 REALITY 的预期对外表现只是端口转发，另外目前不知道 GFW 会不会封 SNI 分流反代，建议用 Nginx 等软件是借用特征。** [#](https://github.com/XTLS/Xray-core/issues/2360#issuecomment-1646734306)
 
-## :exclamation:Nginx SNI routing
+## :exclamation:Nginx SNI shunting
 
 **1. For non-REALITY traffic, it is correct to forward all traffic to dest, which can be detected by SNI shunting, so please use Nginx or other software to implement this.**
 
