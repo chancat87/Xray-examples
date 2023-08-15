@@ -41,11 +41,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "", // 地址，服务端的 IP 或域名；域名需确保是包含在服务端的 SSL 证书中，且已指向了服务端的 IP
-                        "port": 443, // 端口
+                        "address": "",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "chika", // 用户ID
+                                "id": "chika", // 与服务端一致
                                 "encryption": "none",
                                 "flow": "xtls-rprx-vision"
                             }
@@ -57,7 +57,7 @@
                 "network": "tcp",
                 "security": "tls",
                 "tlsSettings": {
-                    "serverName": "", // SNI，如果 "server" 填的是域名，可留空；如果 "server" 填的是 IP，填服务端的证书中包含的域名，且可不指向服务端的 IP
+                    "serverName": "",
                     "allowInsecure": false,
                     "fingerprint": "chrome"
                 }
