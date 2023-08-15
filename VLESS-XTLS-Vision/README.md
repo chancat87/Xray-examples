@@ -1,3 +1,5 @@
+**将 chika.example.com 替换成你的 SSL 证书中包含的域名**
+
 ### v2rayN - V6.19 及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
