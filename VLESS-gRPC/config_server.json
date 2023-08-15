@@ -37,7 +37,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "chika" // 指定服务名称
+                    "serviceName": "chika" // gRPC 服务名称
                 }
             },
             "sniffing": {
