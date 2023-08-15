@@ -34,7 +34,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 伪装域名 | 留空 |
 | 路径 | chika |
 | 传输层安全 | tls |
-| SNI | `chika.example.com` |
+| SNI | chika.example.com |
 | Fingerprint | chrome |
 | Alpn | 留空 |
 | 路过证书验证 | false |
