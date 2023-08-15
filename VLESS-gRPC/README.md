@@ -57,7 +57,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | 伪装域名 | 留空 |
 | path | chika |
 | 传输层安全 | tls |
-| SNI | `chika.example.com` |
+| SNI | chika.example.com |
 | Fingerprint | chrome |
 | Alpn | 留空 |
 | 路过证书验证 | false |
@@ -77,7 +77,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | TLS | 选上 |
 | XTLS | none |
 | 允许不安全 | 不选 |
-| SNI | `chika.example.com` |
+| SNI | chika.example.com |
 | ALPN | 留空 |
 | 公钥 | 留空 |
 | 短 ID | 留空 |
@@ -108,7 +108,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | flow | 停用 |
 | REALITY | 不勾 |
 | alpn | 默认 |
-| 域名 | `chika.example.com` |
+| 域名 | chika.example.com |
 | 允许不安全连接 | 不勾 |
 | 指纹伪造 | chrome |
 | 传输协议 | gRPC |
@@ -139,7 +139,7 @@ sysctl -p /etc/sysctl.d/http2.conf
 | H2/gRPC 健康检查 | 不勾 |
 | TLS | 勾上 |
 | 指纹伪造 | chrome |
-| TLS 主机名 | `chika.example.com` |
+| TLS 主机名 | chika.example.com |
 | TLS ALPN | 留空 |
 | 允许不安全连接 | 不勾 |
 | Mux | 不勾 |
