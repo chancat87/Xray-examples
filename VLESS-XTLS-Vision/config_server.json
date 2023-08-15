@@ -17,13 +17,13 @@
     },
     "inbounds": [
         {
-            "listen": "0.0.0.0", // "0.0.0.0" 表示同时监听IPv4和IPv6
-            "port": 443, // 端口
+            "listen": "0.0.0.0",
+            "port": 443,
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", // 用户ID，长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
+                        "id": "chika", // 长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -46,11 +46,11 @@
                 "tlsSettings": {
                     "rejectUnknownSni": true,
                     "minVersion": "1.2",
-                    "certificates": [ // 证书文件需要使用fullchain（全SSL证书链），若只包含网站证书，会出现如v2rayN能通，v2rayNG不通的现象
+                    "certificates": [
                         {
                             "ocspStapling": 3600,
-                            "certificateFile": "/etc/ssl/private/fullchain.cer", // 证书文件，通常不区分扩展名
-                            "keyFile": "/etc/ssl/private/private.key" // 私钥文件，通常不区分扩展名
+                            "certificateFile": "/etc/ssl/private/fullchain.cer",
+                            "keyFile": "/etc/ssl/private/private.key"
                         }
                     ]
                 }
