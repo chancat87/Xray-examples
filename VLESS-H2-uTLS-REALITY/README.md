@@ -1,6 +1,6 @@
 ### 注意：
 
-:exclamation:gRPC/H2 建议在有优化回程路由（如 CN2-GIA、AS9929/AS10099、CMI/CMIN2、AS4837 等）的VPS上使用。并且VPS所在的地区距离你的位置越近越好。即使你的VPS满足以上条件，仍然不能避免断流现象。建议参考 [NaïveProxy](https://github.com/klzgrad/naiveproxy) 的 [Performance Tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning) 进行优化。除此以外，你可以参考[文档](https://xtls.github.io/Xray-docs-next/config/transports/h2.html#httpobject)，使用[健康检查](https://github.com/chika0801/Xray-examples/blob/main/VLESS-H2-uTLS-REALITY/config_client.json#L68)参数。
+:exclamation:gRPC/H2 建议在有优化回程路由（如 CN2-GIA、AS9929/AS10099、CMI/CMIN2、AS4837 等）的VPS上使用。并且VPS所在的地区距离你的位置越近越好。即使你的VPS满足以上条件，仍然不能避免断流现象。建议参考 [NaïveProxy](https://github.com/klzgrad/naiveproxy) 的 [Performance Tuning](https://github.com/klzgrad/naiveproxy/wiki/Performance-Tuning) 进行优化。除此以外，你可以参考[文档](https://xtls.github.io/Xray-docs-next/config/transports/h2.html#httpobject)，使用[健康检查](https://github.com/chika0801/Xray-examples/blob/main/VLESS-H2-uTLS-REALITY/config_client.json#L65)参数。
 
 <details><summary>点击查看</summary><br>
 
