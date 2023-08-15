@@ -72,7 +72,7 @@
                 "clients": [
                     {
                         "id": "chika",
-                        "flow": "" // 留空
+                        "flow": "none" // 或留空，表示使用普通 TLS 模式
                     }
                 ],
                 "decryption": "none"
