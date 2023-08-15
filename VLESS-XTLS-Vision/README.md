@@ -4,7 +4,7 @@
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址 | chika.example.com |
+| 地址 | 服务端的 IP |
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | xtls-rprx-vision |
@@ -14,7 +14,7 @@
 | 伪装域名 | 留空 |
 | 路径 | 留空 |
 | 传输层安全 | tls |
-| SNI | 留空 |
+| SNI | chika.example.com |
 | Fingerprint | chrome |
 | Alpn | 留空 |
 | 路过证书验证 | false |
@@ -27,7 +27,7 @@
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址 | chika.example.com |
+| 地址 | 服务端的 IP |
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | xtls-rprx-vision |
@@ -37,7 +37,7 @@
 | 伪装域名 | 留空 |
 | path | 留空 |
 | 传输层安全 | tls |
-| SNI | 留空 |
+| SNI | chika.example.com |
 | Fingerprint | chrome |
 | Alpn | 留空 |
 | 跳过证书验证 | false |
@@ -51,13 +51,13 @@
 | 名称 | 值 |
 | :--- | :--- |
 | 类型 | VLESS |
-| 地址 | chika.example.com |
+| 地址 | 服务端的 IP |
 | 端口 | 443 |
 | UUID | chika |
 | TLS | 选上 |
 | XTLS | xtls-rprx-vision |
 | 允许不安全 | 不选 |
-| SNI | 留空 |
+| SNI | chika.example.com |
 | ALPN | 留空 |
 | 公钥 | 留空 |
 | 短 ID | 留空 |
@@ -77,7 +77,7 @@
 | :--- | :--- |
 | 类型 | Xray |
 | 传输协议 | VLESS |
-| 地址（支持域名） | chika.example.com |
+| 地址（支持域名） | 服务端的 IP |
 | 端口 | 443 |
 | 加密方式 | none |
 | ID | chika |
@@ -85,7 +85,7 @@
 | flow | xtls-rprx-vision |
 | REALITY | 不勾 |
 | alpn | 默认 |
-| 域名 | 留空 |
+| 域名 | chika.example.com |
 | 允许不安全连接 | 不勾 |
 | 指纹伪造 | chrome |
 | 传输协议 | TCP |
@@ -101,7 +101,7 @@
 | :--- | :--- |
 | 服务器节点类型 | V2Ray/Xray |
 | V2Ray/XRay 协议 | VLESS |
-| 服务器地址 | chika.example.com |
+| 服务器地址 | 服务端的 IP |
 | 端口 | 443 |
 | Vmess/VLESS ID (UUID) | chika |
 | VLESS 加密 | none |
@@ -110,7 +110,7 @@
 | TLS | 勾上 |
 | 流控（Flow） | xtls-rprx-vision |
 | 指纹伪造 | chrome |
-| TLS 主机名 | 留空 |
+| TLS 主机名 | chika.example.com |
 | TLS ALPN | 留空 |
 | 允许不安全连接 | 不勾 |
 | Mux | 不勾 |
