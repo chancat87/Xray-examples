@@ -30,7 +30,7 @@
                 "clients": [
                     {
                         "id": "chika", // 长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
-                        "flow": "" // 留空
+                        "flow": "none" // 或留空，表示使用普通 TLS 模式
                     }
                 ],
                 "decryption": "none"
