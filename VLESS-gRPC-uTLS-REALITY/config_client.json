@@ -46,8 +46,7 @@
                         "users": [
                             {
                                 "id": "chika", // 与服务端一致
-                                "encryption": "none",
-                                "flow": "none" // 与服务端一致
+                                "encryption": "none"
                             }
                         ]
                     }
