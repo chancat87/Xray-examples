@@ -29,7 +29,8 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika" // 长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
+                        "id": "chika", // 长度为 1-30 字节的任意字符串，或执行 xray uuid 生成
+                        "flow": "xtls-rprx-vision"
                     }
                 ],
                 "decryption": "none",
@@ -70,8 +71,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
-                        "flow": "none" // 或留空，表示使用普通 TLS 模式
+                        "id": "chika"
                     }
                 ],
                 "decryption": "none"
