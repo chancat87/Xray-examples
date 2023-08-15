@@ -79,7 +79,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "lovelive" // 指定服务名称
+                    "serviceName": "lovelive" // gRPC 服务名称
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
