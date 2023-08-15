@@ -71,8 +71,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
-                        "flow": "none" // 或留空，表示使用普通 TLS 模式
+                        "id": "chika"
                     }
                 ],
                 "decryption": "none"
