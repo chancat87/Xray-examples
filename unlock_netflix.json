@@ -5,19 +5,11 @@ VPS A
         "loglevel": "warning"
     },
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
         "rules": [
             {
                 "type": "field",
                 "domain": [
                     "geosite:netflix"
-                ],
-                "outboundTag": "netflix"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "geoip:cn"
                 ],
                 "outboundTag": "netflix"
             }
@@ -73,7 +65,7 @@ VPS B
             "protocol": "shadowsocks",
             "settings": {
                 "method": "2022-blake3-aes-128-gcm",
-                "password": "", // 与 VPS A 中的一致
+                "password": "", // 与 VPS A 的 "password" 一致
                 "network": "tcp,udp"
             }
         }
