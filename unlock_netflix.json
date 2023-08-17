@@ -1,5 +1,4 @@
 VPS A
-
 {
     "log": {
         "loglevel": "warning"
@@ -53,7 +52,6 @@ VPS A
 
 
 VPS B
-
 {
     "log": {
         "loglevel": "warning"
