@@ -74,7 +74,7 @@ VPS B
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIPv4" // 若需使用IPv6，改为 "UseIPv6"
+                "domainStrategy": "UseIPv4" // 如需使用 IPv6，改为 "UseIPv6"
             },
             "tag": "direct"
         }
