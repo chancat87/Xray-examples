@@ -10,30 +10,6 @@
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址 | 服务端的查看</summary><br>
-
-```
-cat > /etc/sysctl.d/http2.conf << EOF
-net.ipv4.tcp_congestion_control=bbr
-net.ipv4.tcp_slow_start_after_idle=0
-net.ipv4.tcp_notsent_lowat=16384
-EOF
-```
-
-```
-sysctl -p /etc/sysctl.d/http2.conf
-```
-
-</details>
-
-**将 chika.example.com 替换成你的 SSL 证书中包含的域名**
-
-### v2rayN - V6.19 及以上版本 配置示例
-
-<details><summary>点击查看</summary><br>
-
-| 名称 | 值 |
-| :--- | :--- |
 | 地址 | 服务端的 IP |
 | 端口 | 443 |
 | 用户ID | chika |
