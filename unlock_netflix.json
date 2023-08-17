@@ -1,6 +1,5 @@
 VPS A
 
-```jsonc
 {
     "log": {
         "loglevel": "warning"
@@ -58,11 +57,11 @@ VPS A
         }
     ]
 }
-```
+
+
 
 VPS B
 
-```jsonc
 {
     "log": {
         "loglevel": "warning"
@@ -89,4 +88,3 @@ VPS B
         }
     ]
 }
-```
