@@ -1,4 +1,5 @@
-// 设置 —— 启用本地DNS 需选中，本地DNS端口 10853，模式 VPN
+v2rayNG 设置 —— 启用本地DNS 需选中，本地DNS端口 10853，模式 VPN
+
 {
     "log": {
         "loglevel": "warning"
