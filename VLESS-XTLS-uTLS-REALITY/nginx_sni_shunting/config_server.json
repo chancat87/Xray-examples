@@ -43,7 +43,7 @@
                         ""
                     ]
                 },
-                "sockopt": {
+                "tcpSettings": {
                     "acceptProxyProtocol": true
                 }
             },
